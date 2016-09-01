@@ -1,0 +1,16 @@
+{
+  "name": "jest-issue-1551",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest-cli": "^15.0.0"
+  },
+  "jest": {
+    "testRegex": "\\.test\\.js$",
+    "testPathDirs": [
+      "src"
+    ]
+  }
+}
